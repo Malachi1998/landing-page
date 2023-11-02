@@ -1,0 +1,91 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.LOGO {
+
+    width: 150px;
+    margin-left: 1050px;
+    box-shadow: 7px 13px 37px #000;
+    position: fixed;
+    top: 50px;
+
+}
+
+body {
+    background-color: goldenrod;
+}
+
+
+
+
+
+.contenedor {
+    width: 98%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    display: flex;
+}
+
+.comp .botons {
+    display: block;
+    width: 30%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    background-color: rgb(226, 35, 92);
+    border-radius: 10%;
+    padding: 15px 50px;
+    margin: 150px 130px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 7px 13px 37px #000;
+
+}
+
+.comp:hover .botons:hover {
+    background-color: transparent;
+    border: rgb(226, 35, 92);
+    color: white
+}
+
+.contenedor-clases {
+    position: relative;
+    top: 150px;
+    left: 350px;
+}
+.prim {
+    position: relative;
+    top: 150px;
+    left: 450px;
+}
+
+.uox{
+    position: relative;
+    top: 75px;
+    left: 225px;
+}
+
+.grif{
+    display: inline-block;
+    width: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    background-color: rgb(226, 35, 92);
+    border-radius: 20%;
+    padding: 5px 10px;
+    margin: 1px 1px;
+    color: black;
+    text-decoration: none;
+    margin-top: -10%;
+    position: relative;
+    top: 80px;
+    left: 80px;
+}
+.grif:hover {
+    background-color: transparent;
+    border: rgb(226, 35, 92);
+    color: white
+}

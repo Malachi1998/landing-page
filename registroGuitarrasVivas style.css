@@ -1,0 +1,127 @@
+.form-register {
+    width: 400px;
+    background: rgb(255, 136, 0);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.controls {
+    width: 100%;
+    margin-bottom: 20px;
+    background: yellow;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: blue;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+.form-register .botons {
+    width: 50%;
+    background: greenyellow;
+    padding: 12px;
+    color: black;
+    margin: 16px 0;
+    font-size: 16px;
+
+}
+
+body {
+    background-color: goldenrod;
+}
+
+.texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
+    display: block;
+    width: 400px;
+    height: 100px;
+    font-weight: 500x;
+    text-align: center;
+    border-radius: 10%;
+    padding: 15px 30px;
+    margin: 10px 0px;
+    color: rgb(75, 48, 3);
+    text-decoration: none;
+    border:rgb(0, 0, 0); 
+}
+.LOGO  {width: 150px;
+margin-left: 1050px;
+box-shadow: 7px 13px 37px #000;
+position: fixed;
+top: 50px;}
+
+
+.eox {
+    display: inline-block;
+    width: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    background-color: rgb(226, 35, 92);
+    border-radius: 20%;
+    padding: 5px 10px;
+    margin: 1px 1px;
+    color: black;
+    text-decoration: none;
+    margin-top: -10%;
+
+}
+
+.eox:hover {
+    background-color: transparent;
+    border: rgb(226, 35, 92);
+    color: white
+}
+
+.info {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botons {
+    display: block;
+    width: 30%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    background-color: rgb(226, 35, 92);
+    border-radius: 10%;
+    padding: 15px 50px;
+    margin: 150px 130px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.botons:hover {
+    background-color: transparent;
+    border: rgb(226, 35, 92);
+    color: white
+}

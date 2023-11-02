@@ -1,0 +1,130 @@
+body {
+    background-color: goldenrod;   
+}
+
+
+.LOGO {
+    width: 150px;
+    margin-left: 1050px;
+    box-shadow: 7px 13px 37px #000;
+    position: fixed;
+    top: 50px;
+}
+
+.rectangulo {
+    width: 100px;
+    height: 670px;
+    background: linear-gradient(to left, rgb(151, 119, 119), rgba(73, 70, 70, 0.25));
+    margin-top: 22%;
+    position: relative;
+    top: 5%;
+    left: 7%;
+    box-shadow: 4px 7px 20px #000;
+}
+
+
+
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+}
+
+div {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+
+.content {
+    color: green;
+}
+
+.guitarImage-wrap{
+    background: linear-gradient(to left, rgb(151, 119, 119), rgba(73, 70, 70, 0.25)),url(img/guitarrasVivasClases.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    min-height: 300px;
+    box-shadow: 15px 23px 47px #000;
+    opacity: 0.8;
+   
+}
+.texto{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
+    display: block;
+    width: 400px;
+    height: 100px;
+    font-weight: 500x;
+    text-align: center;
+    border-radius: 10%;
+    padding: 15px 30px;
+    margin: 10px 0px;
+    color: rgb(75, 48, 3);
+    text-decoration: none;
+    border:rgb(0, 0, 0);   
+    position: absolute;
+    top: 15%;
+    left: 25%;  
+ }
+
+ .info-wrap {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    width: 400px;
+    height: 100px;
+    margin-top: 30%;
+    min-height: 50px;
+    font-weight: 500px;
+    background-color: rgb(210, 35, 226);
+    background-color: transparent;
+    text-align: center;
+    border-radius: 10%;
+    color: rgb(37, 24, 1);
+    text-decoration: none;
+    border:rgb(0, 0, 0); 
+    position: absolute;
+    top: 15%;
+    left: 25%;   
+ }
+
+
+
+
+ .link{
+    text-align: center;
+    margin-top: 70%;
+ }
+
+.orf {
+    display: block;
+    width: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    background-color: rgb(226, 35, 92);
+    border-radius: 10%;
+    padding: 15px 30px;
+    margin: 150px 130px;
+    color: black;
+    text-decoration: none;
+    box-shadow: 7px 13px 37px #000;
+    
+ }
+.orf:hover {
+background-color: transparent;
+border: rgb(226, 35, 92);
+color: white
+ }
+
+ 
