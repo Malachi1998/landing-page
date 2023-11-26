@@ -1,0 +1,28 @@
+header { display: flex;
+    /* alinea lis elementos */
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    /*separa el header del borde  */
+    /*recuerda: 1 rem se basa en el tamaño de la fuente raiz HTML; esta unidad es más predecible que "em", no se ve afectado por elementos padres */
+    background-color: rgb(80, 52, 19);
+    height: 12rem;
+}
+
+.LOGO {
+    display: flex;
+    width: 5rem;
+    margin-left: 2rem;
+    box-shadow: 7px 13px 37px #000;
+    position: fixed;
+    top: 2rem;
+}
+
+footer {
+    display: flex;
+    margin-top: 70vh;
+    padding: 3rem 3rem;
+    /*recuerda: 1 rem se basa en el tamaño de la fuente raiz HTML; esta unidad es más predecible que "em", no se ve afectado por elementos padres */
+    background-color: rgb(80, 52, 19);
+    color: rgb(219, 174, 61)
+}

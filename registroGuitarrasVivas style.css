@@ -1,13 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.LOGO {
+    display: flex;
+    width: 5rem;
+    margin-left: 2rem;
+    box-shadow: 7px 13px 37px #000;
+    position: fixed;
+    top: 2rem;
+}
+
+
+
+body {
+    background-color: rgb(219, 174, 61);
+}
+
+header {
+    display: flex;
+    /* alinea lis elementos */
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    /*separa el header del borde  */
+    /*recuerda: 1 rem se basa en el tamaño de la fuente raiz HTML; esta unidad es más predecible que "em", no se ve afectado por elementos padres */
+    background-color: rgb(80, 52, 19);
+    color: /* rgb(219, 174, 61) color para */
+    height: 12rem;
+
+    .nombreDeMarca {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: sans-serif;
+        display: inline-block;
+        /*con esto el elemento ocupa todo el ancho disponible y comienza en una nueva linea empujando a los elementos de alrededor a la siguiente linea*/
+        font-size: 23px;
+        text-align: center;
+        border-radius: 10%;
+        padding: 1rem 2rem;
+        /* separa la posicion del nombre comercial del brode */
+        margin: 2rem 2rem;
+        /*separa el nombre comercial con margenes izquierdo y derecho */
+        color: rgb(219, 174, 61);
+        text-decoration: none;
+        border: rgb(0, 0, 0);
+        gap: 1rem;
+    }
+
+}
+
 .form-register {
-    width: 400px;
-    background: rgb(255, 136, 0);
-    padding: 30px;
+    width: 35rem;
+    /*bien*/
+    background: #F2CD5C;
+    /*bien*/
+    padding: 4rem;
+    /*bien*/
     margin: auto;
     margin-top: 100px;
-    border-radius: 4px;
+    border-radius: 20px;
+    border-color: solid black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     box-shadow: 7px 13px 37px #000;
+    border: 5px solid black;
 }
+
+
+
+
 
 .form-register h4 {
     font-size: 30px;
@@ -55,11 +119,7 @@
 
 }
 
-body {
-    background-color: goldenrod;
-}
-
-.texto{
+/*.texto {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-family: sans-serif;
     display: block;
@@ -70,20 +130,15 @@ body {
     border-radius: 10%;
     padding: 15px 30px;
     margin: 10px 0px;
-    color: rgb(75, 48, 3);
+    color: rgb(219, 174, 61) color para ;
     text-decoration: none;
-    border:rgb(0, 0, 0); 
-}
-.LOGO  {width: 150px;
-margin-left: 1050px;
-box-shadow: 7px 13px 37px #000;
-position: fixed;
-top: 50px;}
+    border: rgb(0, 0, 0);
+} */*/
+
 
 
 .eox {
     display: inline-block;
-    width: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 500;
     background-color: rgb(226, 35, 92);
@@ -124,4 +179,13 @@ top: 50px;}
     background-color: transparent;
     border: rgb(226, 35, 92);
     color: white
+}
+
+footer {
+    display: flex;
+    margin-top: 70vh;
+    padding: 3rem 3rem;
+    /*recuerda: 1 rem se basa en el tamaño de la fuente raiz HTML; esta unidad es más predecible que "em", no se ve afectado por elementos padres */
+    background-color: rgb(80, 52, 19);
+    color: rgb(219, 174, 61)
 }

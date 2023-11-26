@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.LOGO {
+    display: flex;
+    width: 5rem;
+    margin-left: 2rem;
+    box-shadow: 7px 13px 37px #000;
+    position: fixed;
+    top: 2rem;
+}
+
+header {
+    display: flex; /* alinea lis elementos */
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem; /*separa el header del borde  */
+    /*recuerda: 1 rem se basa en el tamaño de la fuente raiz HTML; esta unidad es más predecible que "em", no se ve afectado por elementos padres */
+    background-color: rgb(80, 52, 19);
+    height: 12rem;
+
+    .nombreDeMarca {    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: sans-serif;      
+        display: inline-block;/*con esto el elemento ocupa todo el ancho disponible y comienza en una nueva linea empujando a los elementos de alrededor a la siguiente linea*/ 
+        font-size: 23px;
+        text-align: center;
+        border-radius: 10%;
+        padding: 1rem 2rem; /* separa la posicion del nombre comercial del brode */
+        margin: 2rem 2rem; /*separa el nombre comercial con margenes izquierdo y derecho */
+        color: rgb(219, 174, 61);
+        text-decoration: none;
+        border: rgb(0, 0, 0);
+
+        gap: 1rem;
+    }
+
+    .nav-bar {
+
+        .nav-list {
+            list-style-type: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        .lista-servicios {
+            list-style-type: none;
+            display: grid;
+            gap: 1rem;
+            
+        }
+        
+        .nav-list li a {
+            text-decoration: none;
+            color: rgb(219, 174, 61)
+        }
+
+        .abrir-menu,
+        .cerrar-menu {
+            display: none;
+        }
+
+        @media screen and (max-width: 550px) {
+
+            .abrir-menu,
+            .cerrar-menu {
+                display: block;
+                border: 0;
+                font-size: 1.25rem;
+                background-color: transparent;
+                cursor: pointer;
+                color: white;
+            }
+        
+           
+        
+            .nav {
+                
+                    opacity: 0;
+                    visibility: hidden;
+                
+
+
+                display: flex;
+                flex-direction: column;
+                align-items: end;
+                gap: 1rem;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #1c1c1c;
+                padding: 2rem;
+                box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
+         
+            }
+       
+            .nav.visible {
+                opacity: 1;
+                visibility: visible;
+            }
+        
+            .nav-list {
+                flex-direction: column;
+                align-items: end;
+        
+            }
+        
+            .nav-list li a {
+                color: rgb(219, 174, 61);
+            }
+        } /* Visualización movil*/
+
+       
+     /*
+        .nav {
+            padding: 1em 1em;
+        }
+        
+        .nav-list {
+            list-style-type: none;
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .nav-list li a {
+            text-decoration: none;
+            color: rgb(219, 174, 61);
+        }
+        
+        .nav.visible {
+            opacity: 1;
+            visibility: hidden;
+        }
+        
+        
+        
+       
+        
+        nav ul {
+            list-style:none;
+            padding: 0;
+            margin: 0;
+        
+        }
+        
+        nav ul li {
+            display: inline-block;
+            position: relative;
+            color: green;
+        }
+        
+        nav ul li:hover > ul {
+            display: block;
+            color: blue;
+        }
+        nav ul ul {
+            display: none; 
+            position: absolute;
+            top: 100%;
+            left: 0;
+        }
+        
+        nav ul ul li {
+            display: block;
+        } 
+        
+        #cerrar {
+        
+        
+            visibility: hidden;
+        
+        }
+        
+        #abrir {
+            display: flex;
+            
+            margin-left: 70vh;
+            background-color: whitesmoke;
+            border: 0;
+            font-size: 1.25rem;
+            background-color: transparent;
+            color: white;
+            cursor: pointer;
+        }
+        
+        .abrirMenu,
+        .cerrarMenu {
+            background-color: whitesmoke;
+            border: 0;
+            font-size: 1.25rem;
+            background-color: transparent;
+            cursor: pointer;
+        }*/
+            
+    }
+}
+           
+
+    
+
+
+body {
+    background-color: rgb(219, 174, 61);
+}
+
+
+
+
+div {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+} /*afecta a la imaen, rectangulo, boton registro*/
+
+/*.content {
+    color: green;
+}*/
+
+.guitarImage-wrap {
+    background: linear-gradient(to left, rgb(151, 119, 119), rgba(73, 70, 70, 0.25)), url(img/guitarrasVivasClases.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 55vw;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+    min-height: 30vh;
+    box-shadow: 15px 23px 47px #000;
+    opacity: 0.8;
+
+}
+
+
+
+.info-wrap {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: block;
+    width: 400px;
+    height: 100px;
+    margin-top: 30%;
+    min-height: 50px;
+    font-weight: 500px;
+    background-color: rgb(210, 35, 226);
+    background-color: transparent;
+    text-align: center;
+    border-radius: 10%;
+    color: rgb(37, 24, 1);
+    text-decoration: none;
+    border: rgb(0, 0, 0);
+    position: absolute;
+    top: 15%;
+    left: 25%;
+}
+
+.link {
+    text-align: center;
+    margin-top: 70%;
+}
+
+.rectangulo {
+    width: 5rem;
+    height: 30rem;
+    background: linear-gradient(to left, rgb(151, 119, 119), rgba(73, 70, 70, 0.25));
+    margin-top: 6rem;
+    position: relative;
+    box-shadow: 4px 7px 20px #000;
+}
+.orf {
+    display: block;
+    width: 10rem;
+    padding: 1rem 3rem;
+    margin: 1rem 16rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(151, 119, 119);
+    border-radius: 10%;
+    color: rgb(219, 174, 61);
+    text-decoration: none;
+    box-shadow: 7px 13px 37px #000;
+    /*text-decoration: 1rem solid block;*/
+    border: rgb(0, 0, 0);
+}
+
+.orf:hover {
+    background-color: transparent;
+    border: rgb(151, 119, 119);
+    color: white
+}
+footer {
+    display: flex;
+    margin-top: 70vh;
+    padding: 3rem 3rem;
+    /*recuerda: 1 rem se basa en el tamaño de la fuente raiz HTML; esta unidad es más predecible que "em", no se ve afectado por elementos padres */
+    background-color: rgb(80, 52, 19);
+    color: rgb(219, 174, 61)
+}

@@ -7,38 +7,74 @@
    <link rel="stylesheet" href="registroGuitarrasVivas style.css">
    <title>Formulario registro</title>
 </head>
-<style>
-   
-</style>
+
 
 
 <body>
+
+   <header class="texto">
+      <button class="abrirMenu" id="abrir"><i class="bi bi-list"></i></button>
+      <nav class="nav" id="nav">
+         <h1 class="texto">"GUITARRAS VIVAS YA"</h1>
+         <button id="cerrar"><i class="bi bi-x-circle-fill"></i></button>
+         <ul class="nav-list">
+            <li><a href="">inicio</a></li>
+            <li><a href="">Registro</a></li>
+            <li><a href="">Log-in</a></li>
+            <li><a href="">Servicios</a></li>
+            <li><a href="">Contacto</a></li>
+
+         </ul>
+      </nav>
+   </header>
+
    <img class="LOGO" src="img/logo.jpg" alt="">
-<div>
-   <a class="eox" href="Comenzar index.html">"inicio"</a>
-</div>
+
+   <div>
+      <a class="eox" href="landingpage index.html">"inicio"</a>
+   </div>
+
    <div>
       <h1 class="texto">Nos gustaría conocerte mejor...</h1>
    </div>
-   <section class="form-register">
+
+   <form class="form-register" id="form-regist">
+     
       <h4>Formulario/Registro</h4>
+
       <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
       <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su apellidos">
-      <input class="controls" type="email" name="correo electrónico" id="correo electrónico" placeholder="Ingrese su Correo electrónico">
-      <input class="controls" type="text" name="número de cuenta bancaria" id="número de cuenta bancaria" placeholder="Ingrese su Numero de cuenta bancaria">
+
+      <input class="controls" type="number" id="phone" name="phone" placeholder="Ingrese su telefono">
+      <input class="controls" type="email" name="correo electrónico" id="correo electrónico" placeholder="Ingrese su Correo electrónico">   
+      
+      <input class="controls" type="password" name="número de cuenta bancaria" id="número de cuenta bancaria"  placeholder="Ingrese su Numero de cuenta bancaria">
       <input class="controls" type="text" name="¿Tienes experiencia en música?" id="¿Tienes experiencia en música?" placeholder="¿Experiencia en música?">
+        
+      
       <p>Estoy de acuerdo con <a href="terminosCondiciones index.html">Términos y Condiciones</a></p>
-      <div class= "link">
-         <a  href="agradeciimentos .html"><input class="botons"  type="submit" value="CONFIRMAR"></a>
-      </div>
+      <a href="logInAccount index.html">¿ya tienes cuenta?</a>
 
-   </section>
-   
-   
-   
+      
+      <a href="agradeciimentos .html" type="submit" value="CONFIRMAR"><button class="botons" alt="enviar">CONFIRMAR</button></a>
+
+      <!-- <div class="link">
+         <a href="agradeciimentos .html"><input class="botons" type="submit" value="CONFIRMAR"></a>
+      </div> -->
+ 
+   </form>
 
 
 
-</body> 
+
+   <footer>
+      <h1 class="texto">"GUITARRAS VIVAS YA"</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque, ratione recusandae doloremque nobis ad,
+         corrupti tempora voluptatum, et fuga sapiente ab soluta magni autem omnis! Ad quod voluptas sint sapiente.</p>
+   </footer>
+
+</body>
+
+<script src="registroGuitarrasVivas.js"></script>
 
 </html>
